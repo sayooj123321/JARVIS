@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J A R V I S</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Generative AI -->
+    <script type="importmap">
+        {
+            "imports": {
+                "@google/generative-ai": "https://esm.run/@google/generative-ai"
+            }
+        }
+    </script>
+</head>
+<body class="container my-4">
+
+    <h1 class="word">
+        <span>J</span>
+        <span>A</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>S</span>
+    </h1>
+    <div class="gif">
+        <img src="giphy.gif" alt="" width="300px" height="300px">
+    </div>
+    <div class="speak">
+        <button id="generate" class="btn btn-primary" hidden>Generate Story</button>
+        <button id="voice" class="btn btn-success">Speak Command</button>
+    </div>
+
+    <div id="result" class="alert alert-info mt-4" role="alert"></div>
+
+    <!-- External JS file -->
+    <script src="js/scripttt.js" type="module"></script>
+    <script src="js/style.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
