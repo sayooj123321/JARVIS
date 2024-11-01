@@ -54,7 +54,7 @@ recognition.onresult = async (event) => {
         speakResponse("vishnu known as chulli.");
         document.getElementById("result").innerText = "I am a personal assistant, call me Jarvis";
     }else if (transcript.includes("who is amal krishna")) {
-        speakResponse("Amal krishna is a kodham kodukkal veeran.");
+        speakResponse("Amal krishna is a veeran.");
         document.getElementById("result").innerText = "Amal krishna is a kodham kodukkal veeran";
     }else if (transcript.includes("who is rishi")||transcript.includes("rishi")) {
         document.getElementById("result").innerText = "rishi is also known as chakka,chakkara buji";
@@ -86,6 +86,9 @@ recognition.onresult = async (event) => {
     } else if (transcript.includes("sounds good")) {
         document.getElementById("result").innerText = "Thank you, sir.";
         speakResponse("Thank you, sir.");
+    }else if (transcript.includes("who is sree nithya")||transcript.includes("who is nithya")) {
+        speakResponse("She is also kwon as Doan and she is my best-friend.");
+        document.getElementById("result").innerText = "She is also kwon as Don and she is my best-friend";
     } else if (transcript.includes("nice work")) {
         document.getElementById("result").innerText = "Thank you, sir it my plessure";
         speakResponse("Thank you, sir it's my plessure");
