@@ -226,7 +226,7 @@ recognition.onresult = async (event) => {
             const windowHeight = 500; 
             const leftPosition = screenWidth - windowWidth; 
             const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-            whatsappWindow = window.open("http://localhost/sample/jarvis/chat/whatsapp.html", "_blank", windowFeatures);   
+            whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/chat/whatsapp.html", "_blank", windowFeatures);   
     }else if (transcript.includes("open my manager") || transcript.includes("open my schedule manager")) {
         document.getElementById("result").innerText = "Opening your schedule manager";
         console.log("Opening your schedule manager");
@@ -236,7 +236,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/meeting/main.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/meeting/main.html", "_blank", windowFeatures);
     }else  if (transcript.includes("open to do list") || transcript.includes("open my to do list")) {
         document.getElementById("result").innerText = "Sure sir, opening your To-Do list.";
         console.log("Opening your To-Do list");
@@ -246,7 +246,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/todolist/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/todolist/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open news") || transcript.includes("open news reader")) {
         document.getElementById("result").innerText = "Opening news reader";
         console.log("Opening news reader");
@@ -256,7 +256,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        window.open("http://localhost/sample/jarvis/news/index.html", "_blank", windowFeatures);
+        window.open("https://sayooj123321.github.io/JARVIS/news/index.html", "_blank", windowFeatures);
     }else  if (transcript.includes("open calendar") || transcript.includes("open my calendar")) {
         document.getElementById("result").innerText = "Opening your calendar";
             console.log("Opening your calendar");
@@ -266,7 +266,7 @@ recognition.onresult = async (event) => {
             const windowHeight = 500; 
             const leftPosition = screenWidth - windowWidth; 
             const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-            whatsappWindow = window.open("http://localhost/sample/jarvis/calender/index.html", "_blank", windowFeatures);
+            whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/calender/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open drawing pad") || transcript.includes("open my drawing pad")) {
         document.getElementById("result").innerText = "Opening your drawing pad";
         console.log("Opening your drawing pad");
@@ -276,7 +276,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/drawing/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/drawing/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open hoverboard") || transcript.includes("open my hoverboard")) {
         document.getElementById("result").innerText = "Opening your hoverboard";
         console.log("Opening your hoverboard");
@@ -286,7 +286,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/hoverboard/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/hoverboard/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open password generator") || transcript.includes("open my password generator")) {
         document.getElementById("result").innerText = "Opening your password generator";
         console.log("Opening your password generator");
@@ -296,7 +296,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/passwordgenerator/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/passwordgenerator/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open insect catch game") || transcript.includes("open my catch game")) {
         document.getElementById("result").innerText = "Opening your insect catch game";
         console.log("Opening your insect catch game");
@@ -306,7 +306,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/insectcatchgame/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/insectcatchgame/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open pac-man game") || transcript.includes("open my pac-man game")) {
         document.getElementById("result").innerText = "Opening your pac-man game";
         console.log("Opening your pac-man game");
@@ -316,7 +316,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/pacmengame/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/pacmengame/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open piano") || transcript.includes("open my piano")) {
         document.getElementById("result").innerText = "Opening your piano";
         console.log("Opening your piano");
@@ -326,7 +326,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/piano/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/piano/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open ping pong game") || transcript.includes("open my ping pong")) {
         document.getElementById("result").innerText = "Opening your ping pong game";
         console.log("Opening your ping pong game");
@@ -336,7 +336,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/pingponggame/ping.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/pingponggame/ping.html", "_blank", windowFeatures);
     }else if (transcript.includes("open qr code generator") || transcript.includes("open my qr code generator")) {
         document.getElementById("result").innerText = "Opening your qr code generator";
         console.log("Opening your qr code generator");
@@ -346,7 +346,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/QRCode/psykatsamanta/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/QRCode/psykatsamanta/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("how to meditate") || transcript.includes("meditation guide")) {
         document.getElementById("result").innerText = "Opening your relaxer";
         console.log("Opening your relaxer");
@@ -356,7 +356,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/relaxerapp/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/relaxerapp/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open exchange rate calculator") || transcript.includes("open rate calculator")|| transcript.includes("open currency converter")) {
         document.getElementById("result").innerText = "Opening your currency converter";
         console.log("Opening your currency converter");
@@ -366,7 +366,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/exchangerate/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/exchangerate/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open expense tracker") || transcript.includes("open my expense tracker")|| transcript.includes("open my expense")|| transcript.includes("open expense")) {
         document.getElementById("result").innerText = "Opening your expense tracker";
         console.log("Opening your expense tracker");
@@ -376,7 +376,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/expensetracker/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/expensetracker/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open pokemon game") || transcript.includes("open my pokemon game")) {
         document.getElementById("result").innerText = "Opening your pikimone game";
         console.log("Opening your pikimone game");
@@ -386,7 +386,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/pikimonegame/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/pikimonegame/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open unit converter") || transcript.includes("open my unit converter")) {
         console.log("Opening your unit converter");
         speakResponse("Opening your unit converter");
@@ -396,7 +396,7 @@ recognition.onresult = async (event) => {
         const windowHeight = 500; 
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
-        whatsappWindow = window.open("http://localhost/sample/jarvis/UnitConverter/index.html", "_blank", windowFeatures);
+        whatsappWindow = window.open("https://sayooj123321.github.io/JARVIS/UnitConverter/index.html", "_blank", windowFeatures);
     }else if (transcript.includes("open movie finder")|| transcript.includes("open movie")|| transcript.includes("find the movie")|| transcript.includes("find movie")){
         console.log("Opening your movie finder");
         speakResponse("opening");
@@ -407,7 +407,7 @@ recognition.onresult = async (event) => {
         const leftPosition = screenWidth - windowWidth; 
         const windowFeatures = `width=${windowWidth},height=${windowHeight},left=${leftPosition},top=60`;
         const searchQuery = "http://127.0.0.1:5500/sample/jarvis/index.html";
-        const bingUrl = `http://localhost/sample/jarvis/modifiedmoviename/index.html`;
+        const bingUrl = `https://sayooj123321.github.io/JARVIS/modifiedmoviename/index.html`;
         window.open(bingUrl, "_blank",windowFeatures);
     }
     else {
