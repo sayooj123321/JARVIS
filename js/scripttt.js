@@ -89,6 +89,9 @@ recognition.onresult = async (event) => {
     }else if (transcript.includes("who is sree nithya")||transcript.includes("who is nithya")||transcript.includes("sri nithya")||transcript.includes("nithya")) {
         speakResponse("She is also known as Doaan. and she is my best-friend.");
         document.getElementById("result").innerText = "She is also  known as Don and she is my best-friend";
+    }else if (transcript.includes("who is isha")||transcript.includes("who is sheesha")||transcript.includes("isha prekash")||transcript.includes("isha")) {
+        speakResponse("isha is my best-friend.");
+        document.getElementById("result").innerText = "isha is my best-friend";
     } else if (transcript.includes("nice work")) {
         document.getElementById("result").innerText = "Thank you, sir it my plessure";
         speakResponse("Thank you, sir it's my plessure");
