@@ -46,7 +46,7 @@ recognition.onresult = async (event) => {
 
      if (transcript.includes("what is your name")||transcript.includes("your name")||transcript.includes("name")) {
         speakResponse("I am Sara.");
-        document.getElementById("result").innerText = "i am Milan";
+        document.getElementById("result").innerText = "i am Sara";
     } else if (transcript.includes("who are you")) {
         speakResponse("I am a personal assistant, call me Jarvis.");
         document.getElementById("result").innerText = "I am a personal assistant, call me Jarvis";
