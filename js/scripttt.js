@@ -53,9 +53,12 @@ recognition.onresult = async (event) => {
     }else if (transcript.includes("who is vishnu")) {
         speakResponse("vishnu known as chulli.");
         document.getElementById("result").innerText = "I am a personal assistant, call me Jarvis";
+    }else if (transcript.includes("who is sara")) {
+        speakResponse("Sara is Rishi's best friend🫂🫂,She is studying Nursing in Coimbatore,Her age is 19.");
+        document.getElementById("result").innerText = "Sara is Rishi's best friend🫂🫂,She is studying Nursing in Coimbatore,Her age is 19"
     }else if (transcript.includes("who is amal krishna")) {
         speakResponse("Amal krishna is a veeran.");
-        document.getElementById("result").innerText = "Amal krishna is a kodham kodukkal veeran";
+        document.getElementById("result").innerText = "Amal krishna is a  veeran";
     }else if (transcript.includes("who is rishi")||transcript.includes("rishi")) {
         document.getElementById("result").innerText = "rishi is also known as chakka,chakkara buji";
         speakResponse("rishi is also known as chakka,chakkara buji");
