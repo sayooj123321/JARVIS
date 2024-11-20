@@ -48,8 +48,8 @@ recognition.onresult = async (event) => {
         speakResponse("I am Rishi.");
         document.getElementById("result").innerText = "i am Rishi";
     } else if (transcript.includes("who are you")) {
-        speakResponse("I am a personal assistant, call me Jarvis.");
-        document.getElementById("result").innerText = "I am a personal assistant, call me Jarvis";
+        speakResponse("I am your personal assistant, call me Rishi");
+        document.getElementById("result").innerText = "I am a personal assistant, call me Rishi";
     }else if (transcript.includes("who is vishnu")) {
         speakResponse("vishnu known as chulli.");
         document.getElementById("result").innerText = "I am a personal assistant, call me Jarvis";
