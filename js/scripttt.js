@@ -60,8 +60,8 @@ recognition.onresult = async (event) => {
         speakResponse("Amal krishna is a veeran.");
         document.getElementById("result").innerText = "Amal krishna is a  veeran";
     }else if (transcript.includes("who is rishi")||transcript.includes("rishi")) {
-        document.getElementById("result").innerText = "rishi is also known as chakka,chakkara buji";
-        speakResponse("rishi is also known as chakka,chakkara buji");
+        document.getElementById("result").innerText = "It's Me";
+        speakResponse("It's Me");
     } else if (transcript.includes("i love you")) {
         document.getElementById("result").innerText = "I love you too, you're so cute 😘";
         speakResponse("I love you too, you're so cute 😘"); 
@@ -195,7 +195,7 @@ recognition.onresult = async (event) => {
         speakResponse("You don't have a daddy.");
         document.getElementById("result").innerText = "You don't have a daddy.";
     } else if (transcript.includes("who is your daddy")||transcript.includes("who is your father")) {
-        speakResponse("Sreerag.");
+        speakResponse("Sreerag");
         document.getElementById("result").innerText = "Sreerag.";
     }else if (transcript.includes("how to made you")) {
         document.getElementById("result").innerText = "that's the secret.";
